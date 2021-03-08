@@ -8,7 +8,7 @@ namespace Alumnos
         public int matricula;
 
       
-        public Alumno( int matricula)
+        public Alumno(string nombre, string apellido,  int matricula)
         {
             this.nombre = nombre;
             this.apellido = apellido;
