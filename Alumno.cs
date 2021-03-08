@@ -4,12 +4,11 @@ namespace Alumnos
 {
     class Alumno : Persona
     {
-        public string nombre;
-        public string apellido;
+        
         public int matricula;
 
       
-        public Alumno(string nombre, string apellido, int matricula)
+        public Alumno( int matricula)
         {
             this.nombre = nombre;
             this.apellido = apellido;
